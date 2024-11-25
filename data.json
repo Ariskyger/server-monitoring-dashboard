@@ -1,0 +1,18 @@
+[
+    {
+        "server": "Server 1",
+        "metrics": [
+            {"time": "2024-11-25 00:00", "cpu": 35, "memory": 50, "disk": 40, "network": 120},
+            {"time": "2024-11-25 01:00", "cpu": 40, "memory": 55, "disk": 42, "network": 130},
+            {"time": "2024-11-25 02:00", "cpu": 38, "memory": 53, "disk": 41, "network": 110}
+        ]
+    },
+    {
+        "server": "Server 2",
+        "metrics": [
+            {"time": "2024-11-25 00:00", "cpu": 45, "memory": 60, "disk": 50, "network": 200},
+            {"time": "2024-11-25 01:00", "cpu": 50, "memory": 62, "disk": 48, "network": 220},
+            {"time": "2024-11-25 02:00", "cpu": 47, "memory": 61, "disk": 49, "network": 210}
+        ]
+    }
+]

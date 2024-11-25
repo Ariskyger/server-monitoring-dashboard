@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>System Monitoring Dashboard</h1>
+
+    <!-- Formular für neuen Server -->
+    <div id="add-server-form">
+        <input id="server-name" type="text" placeholder="Server Name" />
+        <textarea id="server-data" placeholder="Server-Daten (JSON-Format)"></textarea>
+        <button id="add-server-button">Server hinzufügen</button>
+    </div>
+
+    <div id="server-container">
+        <!-- Dynamisch generierte Server-Felder -->
+    </div>
+	<div id="add-live-server-form">
+    <input id="server-ip" type="text" placeholder="Server IP-Adresse (z.B. 192.168.1.1)" />
+    <button id="add-live-server-button">Live-Server hinzufügen</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
